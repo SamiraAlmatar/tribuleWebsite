@@ -1,0 +1,174 @@
+body{
+				background-image : url("https://i.pinimg.com/originals/f3/e9/7f/f3e97f840241eeffb6af46fdf6d6c502.png");
+				background-size: contain;
+				background-repeat: repeat;
+			}
+			.container{
+							
+				margin-left : 25%;
+				padding:10px;
+				height: auto;
+				width: 850px;
+			}
+			nav {
+				margin-left: 100px;
+			}
+			nav a {
+				margin-right: 60px;
+				font-family: 'Bellefair', serif;
+				font-size:120%;
+				color: #337ab7;
+			}
+			nav a:hover {
+				background-color: #7E9CAE;
+				
+			}
+			nav a:active{
+				color:red;
+			}
+			header {
+				position:relative;
+				background-image : url("http://www.wallpaperhdc.com/wp-content/uploads/2017/11/cute-wallpapers-for-laptop-22.jpg");
+				background-size: contain;
+				background-repeat: no-repeat;
+				height:450px;
+			}
+			.banner-img {
+				position:absolute;
+				top: 180px;
+				left: 250px;
+				height: 250px;
+				border-radius: 50%;
+			}
+			header h1{
+				font-family:Cinzel Decorative;
+				font-size: 2.2em;
+				margin-left: 100px;
+			}
+      .slide {
+        width : 100%;
+        height : auto;
+      }
+			table, td {
+				border: 1px solid #AA0909;
+				width: auto;
+			}
+			.blog{
+				background : rgb(204, 238, 255, 0.6);
+				
+				width: 93%;
+				padding: 5px;
+			}
+			.favorite-time{
+				display:grid;
+				grid-template-columns: 200px 200px;
+				grid-template-rows: 400px 400px;
+				grid-row-gap : 80px;
+				grid-column-gap: 200px;
+				
+			}
+			.ftime{
+				width: 350px;
+				height: auto;
+				overflow-y: scroll;
+				box-shadow:20px 20px 10px grey;
+			}
+			.ftime img{
+				width: 100%;
+				height: auto;
+			}
+			h2, h1 {
+				font-family: Cinzel Decorative;
+				color: #337ab7;
+			}
+			h4 {
+				font-family: Cinzel Decorative;
+			}
+			.description h2 {
+				font-size: 0.5em;
+			}
+			footer{
+				background-image :url("https://www.healthykids.org.my/sites/all/themes/nhk/img/footer-img.png" );
+				
+				background-size: contain;
+				background-repeat: no-repeat;
+				height: 200px;				
+			}
+			footer h4{
+				margin-left: 200px;
+				margin-top: 100px;
+			}
+@media only screen and (min-width: 569px) and (max-width: 640px) {
+        nav {
+				margin-left: 20px;
+			}
+			nav a {
+				margin-right: 10px;
+				font-size: 50%;
+        }
+        header {
+          height: 155px;
+        }
+        .banner-img {
+          position:absolute;
+				  top: 60px;
+				  left: 90px; 
+          height: 80px;
+        }
+        header h1, h1, h2, h4{
+          font-size: 40%;
+        }
+		.container {
+      
+		  width: 50%;
+		}
+        .favorite-time {
+          width: 25%;
+          grid-column-gap:0px;
+        }
+        .ftime {
+          width : 60%;
+        }
+   footer h4{
+				margin-left: 40px;
+				margin-top: 30px;
+			}
+}
+			@media only screen and (min-width: 641px) and (max-width: 1007px) {
+        nav {
+				margin-left: 80px;
+			}
+			nav a {
+				margin-right: 30px;
+				font-size:70%;
+        }
+        header {
+          height: 237px;
+        }
+        .banner-img {
+          position:absolute;
+				  top: 90px;
+				  left: 120px; 
+          height: 140px;
+        }
+        header h1, h1, h2, h4 {
+          font-size: 70%;
+        }
+				.container {
+          
+					width: 70%;
+				}
+        .favorite-time {
+          width: 50%;
+          grid-column-gap:20px;
+        }
+        .ftime {
+          width : 90%;
+        }
+        footer h4{
+				margin-left: 80px;
+				margin-top: 50px;
+			}
+			}
+			
+		
